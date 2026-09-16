@@ -1,0 +1,8 @@
+# Залежності та пакети
+.cache/
+.ctagsd/
+.codelite/
+build/
+
+compile_commands.json
+ups_3.workspace

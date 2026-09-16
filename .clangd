@@ -1,0 +1,19 @@
+CompileFlags:
+  Remove:
+    - "-fno-tree-switch-conversion"
+    - "-mlongcalls"
+    - "-fno-builtin-memcpy"
+    - "-fno-builtin-memset"
+    - "-fno-builtin-bzero"
+    - "-mdisable-hardware-atomics"
+    - "-mfix-esp32-psram-cache-issue"
+    - "-mfix-esp32-psram-cache-strategy=memw"
+    - "-fno-rtti"
+    - "-fno-jump-tables"
+    - "-fstrict-volatile-bitfields"
+    - "--target=xtensa*"
+    - "--target=esp*"
+    - "-m*"
+  Add:
+    - -I/data/project/arduino/libraries/gnl-button/src
+    - -I/data/project/arduino/libraries/gnl-timer/src
